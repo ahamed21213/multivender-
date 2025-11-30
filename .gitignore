@@ -1,0 +1,63 @@
+# ======================================
+# Django & Python
+# ======================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.env/
+*.env
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media & Static (Don't upload uploaded files)
+media/
+static/
+staticfiles/
+
+# Migrations (optional - keep if you want history)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment next line ONLY if you DO NOT want migrations in git
+# */migrations/*
+
+# ======================================
+# VSCode / Editor files
+# ======================================
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# ======================================
+# OS files
+# ======================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ======================================
+# Git
+# ======================================
+.gitignore
